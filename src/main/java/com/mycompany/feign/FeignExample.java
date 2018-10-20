@@ -1,5 +1,8 @@
 package com.mycompany.feign;
 
+import com.mycompany.feign.model.Book;
+import com.mycompany.feign.resource.BookResource;
+import com.mycompany.feign.rest.BookClient;
 import feign.Feign;
 import feign.Logger;
 import feign.gson.GsonDecoder;

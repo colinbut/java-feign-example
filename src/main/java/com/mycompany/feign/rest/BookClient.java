@@ -3,8 +3,10 @@
  * | Copyright © 2018 Colin But. All rights reserved.
  * |-------------------------------------------------
  */
-package com.mycompany.feign;
+package com.mycompany.feign.rest;
 
+import com.mycompany.feign.model.Book;
+import com.mycompany.feign.resource.BookResource;
 import feign.Headers;
 import feign.Param;
 import feign.RequestLine;

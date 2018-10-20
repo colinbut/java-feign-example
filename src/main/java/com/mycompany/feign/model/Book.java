@@ -3,7 +3,7 @@
  * | Copyright © 2018 Colin But. All rights reserved.
  * |-------------------------------------------------
  */
-package com.mycompany.feign;
+package com.mycompany.feign.model;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;

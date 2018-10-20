@@ -5,6 +5,9 @@
  */
 package com.mycompany.feign;
 
+import lombok.Data;
+
+@Data
 public class BookResource {
     private Book book;
 }

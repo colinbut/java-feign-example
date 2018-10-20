@@ -13,7 +13,7 @@ import java.util.UUID;
 import java.util.stream.Collectors;
 
 @Slf4j
-public class App {
+public class FeignExample {
 
     public static void main( String[] args ) {
         BookClient bookClient = Feign.builder()
